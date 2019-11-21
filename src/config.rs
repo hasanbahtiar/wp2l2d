@@ -8,10 +8,10 @@ pub struct Config {
     pub key_file: Option<String>,
     pub wp_feed_url: https://www.cilacap.info/feed,
     pub line_native_country: ID,
-    pub line_pub_to_country: Option<String>,
-    pub line_excl_from_country: Option<String>,
-    pub line_lang: Option<String>,
-    pub publish_duration_in_weeks: Option<u8>,
+    pub line_pub_to_country: id,
+    pub line_excl_from_country: ID,
+    pub line_lang: id,
+    pub publish_duration_in_weeks: 1,
 }
 
 pub fn create() -> Config {
