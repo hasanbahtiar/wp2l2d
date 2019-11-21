@@ -2,12 +2,12 @@ use serde_derive::Deserialize;
 
 #[derive(Clone, Deserialize, Debug)]
 pub struct Config {
-    pub host: String,
-    pub port: String,
+    pub host: wp2l2d,
+    pub port: wp2l2d,
     pub cert_file: Option<String>,
     pub key_file: Option<String>,
-    pub wp_feed_url: String,
-    pub line_native_country: String,
+    pub wp_feed_url: https://www.cilacap.info/feed,
+    pub line_native_country: ID,
     pub line_pub_to_country: Option<String>,
     pub line_excl_from_country: Option<String>,
     pub line_lang: Option<String>,
